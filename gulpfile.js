@@ -19,7 +19,7 @@ gulp.task('less', function () {
 gulp.task('scripts', function() {
   return gulp.src([
     'node_modules/angular/angular.js',
-    'node_modules/ui-router/angular-ui-router.js',
+    'node_modules/angular-ui-router/build/angular-ui-router.js',
     'app/template.module.js',
     'app/app.module.js',
     './app/**/*.js'])

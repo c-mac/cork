@@ -10,7 +10,11 @@
         })
         .state('projectLanding', {
           url: '/landing',
-          templateUrl: 'projectLanding/projectLanding.html'
+          templateUrl: 'projectLanding/projectLanding.html',
+          controller: 'projectLandingController as landing',
+          params: {
+            project: null
+          }
         });
 
     $urlRouterProvider.otherwise('/projectList');

@@ -1,6 +1,7 @@
 <div class="projectList-heading">Project List</div>
 <crk-project-list ng-repeat="project in projectList.projects" display="project.display" due="project.due"
-    type="project.type"></crk-project-list>
+    type="project.type" ui-sref="projectLanding({project: project})">
+</crk-project-list>
 <button class="projectList-addProjectButton" ng-click="projectList.createProject()">
   + New Project
 </button>

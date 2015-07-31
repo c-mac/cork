@@ -9,6 +9,7 @@
     "node": "0.12.2"
   },
   "dependencies": {
+    "angular-ui-router": "^0.2.15",
     "ejs": "^2.3.3",
     "express": "^4.13.1"
   },

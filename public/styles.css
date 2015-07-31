@@ -1,13 +1,23 @@
 .u-alignCenter {
   text-align: center;
 }
-.someClass {
-  color: blue;
+.projectLanding-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.projectLanding-project {
+  display: flex;
+  float: left;
+  height: 600px;
+  width: calc(25% - 100px);
+  margin: 0 48px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
 }
 .projectList-heading {
   text-align: center;
   margin-bottom: 20px;
-  align-self: center;
 }
 .projectList-container {
   display: flex;
@@ -79,6 +89,9 @@
 }
 .b-1-4 {
   width: 25%;
+}
+.b-1-5 {
+  width: 20%;
 }
 body {
   padding: 20px;
